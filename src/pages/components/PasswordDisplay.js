@@ -8,11 +8,11 @@ export default function PasswordDisplay({ password }) {
 
   return (
     <div className="mt-4">
-      <div className="flex items-center justify-between bg-gray-100 p-2 rounded border">
+      <div className="flex items-center justify-between bg-gray-200 py-3 px-4 rounded">
         <span className="break-all">{password}</span>
         <button
           onClick={copyToClipboard}
-          className="text-blue-500 hover:text-blue-700 ml-2"
+          className="text-indigo-600 font-bold hover:text-blue-700 ml-2 cursor-pointer"
         >
           Copy
         </button>
